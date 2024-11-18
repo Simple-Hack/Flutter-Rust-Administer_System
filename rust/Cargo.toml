@@ -11,6 +11,6 @@ flutter_rust_bridge = "=2.6.0"
 
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-rusqlite = { version = "0.32.1", features = ["bundled", "extra_check"] }
-libsqlite3-sys = "0.30.1"
-wasm-bindgen = "0.2"
+rusqlite = { version = "0.32.0", features = ["bundled"] }
+
+wasm-bindgen = "0.2.95"
