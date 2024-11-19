@@ -1,6 +1,6 @@
 # 学生教务系统/flutter+rust实现
 
-使用到的工具有
+## 使用到的工具有
 
 - flutter_rust_bridge 2.6.0
 - sqlite3
@@ -14,4 +14,18 @@
 
 总的来讲，当打开Chrome或Edge浏览器时始终存在编译sqlite3时显示缺少 **\<stdio.h\>** 的问题，目前还没有找到解决方案，所以，本文件只能在Windows平台上运行。
 
+## 实现的功能有
+
+- 按学期查阅成绩
+- 计算绩点
+- 选课/退课
+- 显示目前所有的课程
+
+## 具体地实现是
+
+- 使用flutter实现前端界面的绘制
+- 使用rust操纵sqlite3数据库查询数据
+- 使用flutter_rust_bridge实现flutter和rust的交互
+- 最后再更新flutter的显示界面
+  
 [^1]: [Sqlite3官方文档](https://sqlite.org/wasm/doc/trunk/emscripten.md)
